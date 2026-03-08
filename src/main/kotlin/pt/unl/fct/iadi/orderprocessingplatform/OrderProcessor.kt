@@ -2,7 +2,8 @@ package pt.unl.fct.iadi.orderprocessingplatform
 
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
-import pt.unl.fct.iadi.orderprocessingplatform.domain.*
+import pt.unl.fct.iadi.orderprocessingplatform.domain.Order
+import pt.unl.fct.iadi.orderprocessingplatform.domain.PaymentRequest
 import pt.unl.fct.iadi.orderprocessingplatform.payment.PaymentGateway
 import pt.unl.fct.iadi.orderprocessingplatform.pricing.PriceCalculator
 import java.math.BigDecimal
