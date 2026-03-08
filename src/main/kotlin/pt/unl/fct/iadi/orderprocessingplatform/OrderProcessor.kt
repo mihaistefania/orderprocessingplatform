@@ -68,9 +68,9 @@ class OrderProcessor(
             id = "ORD-2026-001",
             userId = "user123",
             items = listOf(
-                OrderItem("LAPTOP-001", 2, 999.99),
-                OrderItem("MOUSE-042", 3, 29.99),
-                OrderItem("KEYBOARD-123", 1, 149.99)
+                Order.OrderItem("LAPTOP-001", 2, 999.99),
+                Order.OrderItem("MOUSE-042", 3, 29.99),
+                Order.OrderItem("KEYBOARD-123", 1, 149.99)
             )
         )
 
